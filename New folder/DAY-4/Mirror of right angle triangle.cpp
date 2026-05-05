@@ -1,0 +1,24 @@
+/*Write a C++ program to print a mirror of right angle triangle pattern
+which has take input from user.*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+
+    cout << "Enter number of rows: ";
+    cin >> rows;
+
+    for(int i = 1; i <= rows; i++) {
+        for(int j = 1; j <= rows - i; j++) {
+            cout << "  ";
+        }
+        for(int j = 1; j <= i; j++) {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
