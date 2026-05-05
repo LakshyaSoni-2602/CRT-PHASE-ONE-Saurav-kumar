@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+void printMessage() {
+    cout << "Hello, welcome to C++ programming!" << endl;
+}
+
+int main() {
+    printMessage();
+    return 0;
+}
